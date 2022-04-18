@@ -99,7 +99,6 @@ class Hw6{
     }
 
  }
-
 //7
 class Hw7{
     public static void main(String[] args) {
@@ -111,36 +110,33 @@ class Hw7{
         System.out.println("intrest");
         String i = scanner.nextLine();
 
-        System.out.println(("my name is " + n), "my roll number is " + r, "my intrest is " + i) ;
+        System.out.print("my name is " + n, "my roll number is " + r, "my intrest is " + i) ;
 
     }
 }
 
-//8
-class Hw8{
-
-
-
-}
 
 //9
 class Hw9{
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("enter any number");
+        int a = scanner.nextInt();
+        int result;
+        result = a*a;
+        System.out.println(result);
 
-
-
-
-
+    }
 
 }
-
 
 
 //10
 class Hw10{
-
-
-
-
+    public static void main(String[] args) {
+        System.out.print("hello");
+        System.out.print(" aditya");
+    }
 
 }
 
@@ -148,6 +144,9 @@ class Hw10{
 
 //11
 class Hw11{
+    public static void main(String[] args) {
+
+    }
 
 
 
