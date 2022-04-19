@@ -115,6 +115,70 @@ class Hw7{
     }
 }
 
+// hw 8
+
+class mathematical_calculation {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter Length of Square:");
+        double a = scanner.nextDouble();
+        double area = a*a;
+        double perimeter = 4*a;
+        System.out.print("The Area of Square is: "+area);
+        System.out.println(" and the perimeter of square is: "+perimeter);
+    }
+}
+class si{
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter Principle: ");
+        double a = scanner.nextDouble();
+        System.out.print("Enter Time: ");
+        double b = scanner.nextDouble();
+        System.out.print("Enter Rate: ");
+        double c = scanner.nextDouble();
+        double d;
+        d = (a*b*c)/100;
+        System.out.println("S.I. is : " +d);
+
+    }
+}
+class area_triangle{
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter Base of Triangle:");
+        double base = scanner.nextDouble();
+        System.out.println("Enter Height of Triangle:");
+        double height = scanner.nextDouble();
+        double area ;
+        area = 0.5*base*height;
+        System.out.println("Area of Triangle is: " +area);
+    }
+}
+class volume_cube{
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter Length of Cube:");
+        double length = scanner.nextDouble();
+        double volume;
+        volume = length*length*length;
+        System.out.println(volume);
+    }
+}
+class volume_cuboid{
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter Length of Triangle:");
+        double length = scanner.nextDouble();
+        System.out.println("Enter Width of Triangle:");
+        double width = scanner.nextDouble();
+        System.out.println("Enter Height of Triangle:");
+        double height = scanner.nextDouble();
+        double volume;
+        volume= length*width*height;
+        System.out.println(volume);
+    }
+}
 
 //9
 class Hw9{
@@ -145,26 +209,70 @@ class Hw10{
 //11
 class Hw11{
     public static void main(String[] args) {
-
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            System.out.print("Enter a Number: ");
+            int a  = scanner.nextInt();
+            System.out.print("Enter second Number: ");
+            int b  = scanner.nextInt();
+            System.out.print("Enter third Number: ");
+            int c  = scanner.nextInt();
+            String check;
+            check = ((a==b)&&(b==c))?"All the Numbers are equal":((a==b)||(b==c)||(a==c))?"Two Numbers are Equal":"None Numbers are Equal";
+            System.out.println(check);
     }
-
-
-
-
 }
-
-
 
 
 //12
 class Hw12{
-
-
-
-
-
-
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a Number: ");
+        int a  = scanner.nextInt();
+        System.out.print("Enter another Number: ");
+        int b  = scanner.nextInt();
+        String c;
+        c = ((a<50)&&(a<b))?"Both Condition i.e. a<50 and a<b is True":"Both Condition i.e. a<50 and a<b is False";
+        System.out.println(c);
+    }
 }
+
+
+
+//13
+class Hw13{
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter MArk of 1st Subject: ");
+        double a = scanner.nextDouble();
+        System.out.print("Enter MArk of 2nd Subject: ");
+        double b = scanner.nextDouble();
+        System.out.print("Enter MArk of 3rd Subject: ");
+        double c = scanner.nextDouble();
+        double total_mark;
+        double percentage;
+        total_mark = a+b+c;
+        System.out.println("Total Marks is :" + total_mark);
+        percentage = total_mark/4;
+        System.out.println("Total Percentage is :" + percentage);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
